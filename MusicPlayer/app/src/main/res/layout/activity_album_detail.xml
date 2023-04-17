@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE1B1A1A"
+    tools:context=".Activity.AlbumDetailActivity">
+
+    <ImageView
+        android:id="@+id/albumPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/image_default"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/background_gradient_album" />
+
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="350dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:text="Album Name"
+        android:layout_marginTop="220dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gradient"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/white_faint"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        tools:text="Artist Name"
+        android:layout_below="@+id/album_name"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/albumPhoto"/>
+
+</RelativeLayout>

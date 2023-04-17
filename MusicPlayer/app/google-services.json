@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1006813909448",
+    "project_id": "musicapp-500ad",
+    "storage_bucket": "musicapp-500ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006813909448:android:0d13ad83411ccab3d1b0fd",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006813909448-hsc2hd7ut5regsaaaiv6ig8n7b4bg5cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPvSIRqCrfx3eYN-1AZ1Q1yqu0D471tM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006813909448-hsc2hd7ut5regsaaaiv6ig8n7b4bg5cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
